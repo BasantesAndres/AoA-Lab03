@@ -7,7 +7,7 @@
 
 ---
 
-## ✨ Overview (Brief)
+## ✨ Overview 
 In this lab we implemented and analyzed two main components:
 
 1. **🗼 Towers of Hanoi (Recursive vs. Iterative)**
@@ -25,15 +25,7 @@ In this lab we implemented and analyzed two main components:
 
 ---
 
-## 🧱 Project Architecture
-Below is the project structure used for this lab:
 
-📷 **Architecture / Folder Layout (attached image):**  
-> Place your architecture image in the repository (recommended name: `architecture.png`) and it will render here.
-
-![Project Architecture](./architecture.png)
-
----
 
 ## 📁 Repository Contents
 - **`lab03_main.cpp`** → C++ source code (Hanoi + LCG + benchmarking)
@@ -43,25 +35,25 @@ Below is the project structure used for this lab:
 
 ---
 
-## ▶️ How to Run (Windows / VS Code)
+## ▶️ How to Run 
 ### ✅ Compile
 ```bash
 g++ -O2 -std=c++17 lab03_main.cpp -o lab03
 ```
 
-### ✅ Run benchmark (tables)
+### ✅ Run benchmark 
 ```bash
 .\lab03.exe
 ```
 
-### ✅ Run with printed moves (small n correctness demo)
+### ✅ Run with printed moves 
 ```bash
 .\lab03.exe print 3
 ```
 
 ---
 
-## 🖼️ Evidence (Screenshots)
+## 🖼️ Evidence 
 You can view the execution evidence here:
 
 ![Screen 1](./Screen%201.JPG)  
@@ -69,11 +61,4 @@ You can view the execution evidence here:
 
 ---
 
-## ✅ Notes
-- Benchmark mode **does not print moves** to keep runtime measurements accurate.
-- Printed-move mode is intended for **small n** to visually verify correctness.
 
----
-
-## 📬 Contact
-If needed: **Andres Basantes** — *Yachay Tech University* ✉️
